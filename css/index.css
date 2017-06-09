@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/*秒杀部分*/
+.miaosha {
+    height: 305px;
+}
+.miaosha .miaosha-top {
+    height: 55px;
+    background: url("../img/seckill_hd.png") no-repeat;
+    position: relative;
+    overflow: hidden;
+    line-height: 55px;
+}
+.miaosha .miaosha-top span {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url("../img/sprite_index@1x.png") no-repeat -191px -49px;
+    position: absolute;
+    top: -4px;
+    left: -3px;
+}
+.miaosha .miaosha-top-left span {
+    display: inline-block;
+    width: 33px;
+    height: 39px;
+    background: url("../img/sprite_index@1x.png") no-repeat 0 -40px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.miaosha .miaosha-top-left h3 {
+    font-size: 23px;
+    color: white;
+    margin-left: 72px;
+}
+.miaosha .miaosha-top-left a {
+    color: white;
+    margin-top: 3px;
+    margin-left: 14px;
+}
+.miaosha .miaosha-top-left i {
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: url("../img/sprite_index@1x.png") no-repeat -154px -40px;
+    margin-top: 23px;
+    margin-left: 6px;
+}
+.miaosha .miaosha-top-right .text-li {
+    color: white;
+}
+.miaosha .miaosha-top-right li {
+    float: left;
+}
+.miaosha .miaosha-top-right .time {
+    float: left;
+}
+.miaosha .miaosha-top-right .maohao {
+    float: left;
+}
+.miaosha .miaosha-top-right .maohao i {
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background: white;
+}
+.miaosha-bot {
+    height: 225px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+.miaosha-bot li {
+    float: left;
+    width: 174px;
+    height: 225px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-right: 1px solid #E7E7E7;
+    position: relative;
+}
+.miaosha-bot ul li a img {
+    display: block;
+    margin: 0 auto;
+}
+.miaosha-bot ul li i {
+    display: block;
+    width: 144px;
+    height: 6px;
+    background: url("../img/sprite_index@1x.png") no-repeat -11px -14px;
+    position: absolute;
+    top: 125px;
+    left: 25px;
+}
+.miaosha-bot ul li a p {
+    margin-top: 15px;
+    height: 40px;
+}
+.miaosha-bot .last-li {
+    border-right: 0;
+}
+.miaosha-bot .huodong {
+    display: inline-block;
+    width: 180px;
+    height: 225px;
+    background: url("../img/sk6.jpg");
+    float: left;
+}
+
+/*主体内容*/
+.bg-link a {
+    display: inline-block;
+    height: 480px;
+    width: 100%;
+    background: url("../img/bg-link.png") 50% no-repeat;
+    position: absolute;
+}
+.main {
+    height: 480px;
+    background: pink;
+    position: relative;
+    z-index: 1;
+}
+.main .main-left {
+    height: 465px;
+    width: 190px;
+    background: #6E6568;
+    padding-top: 15px;
+}
+.main .main-left li {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.main .main-left a {
+    color: white;
+    margin-left: 10px;
+}
+.main .main-left li:hover {
+    height: 30px;
+    background: #999395;
+}
+
+.main .main-mid .top {
+    width: 790px;
+    height: 340px;
+    background: green;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px;
+}
+.main .main-mid .top ul {
+    width: 2370px;
+}
+.main .main-mid .top li {
+    float: left;
+}
+.main .main-mid .top .jiantou {
+    width: 790px;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+    left: 0;
+
+}
+.main .main-mid .top .jiantou i {
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 60px;
+}
+.main .main-mid .top .jiantou i:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.main .main-mid .top ol {
+    width: 200px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+    margin-left: 295px;
+}
+.main .main-mid .top ol li {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: white;
+    margin-top: 7px;
+}
+.main .main-mid .bot {
+    margin-top: 10px;
+}
+.main .main-mid .bot a {
+    float: left;
+    margin-left: 10px;
+}
+.main .main-right  {
+    width: 190px;
+    height: 480px;
+    background: white;
+}
+
+.main-right .login-left  img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.main-right .login-right {
+    margin-top: 19px;
+}
+.main-right .login-right p a {
+    height: 28px;
+    line-height: 28px;
+}
+.main-right .login-bottom span {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    border: 2px solid #E01222;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.main-right .login-bottom {
+    height: 115px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.main-right .mr-mid {
+    width: 190px;
+    height: 149px;
+    padding: 5px 15px 0 13px;
+}
+.mr-mid .cuxiao li {
+    float: left;
+}
